@@ -1,0 +1,42 @@
+/* Background gradient */
+body {
+    background: linear-gradient(45deg, #74ebd5, #ACB6E5);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+/* Customize the card */
+.card {
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.card-title {
+    color: #4e4e4e;
+    font-weight: bold;
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+/* Weather info section */
+#weather-info h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+#weather-info h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #000;
+}
+
+#weather-info p {
+    font-size: 1.2rem;
+    color: #555;
+}
